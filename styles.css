@@ -98,10 +98,13 @@
     background-position: bottom; 
     background-repeat: no-repeat;
     height: 565px;
-    opacity: 0.5;
     gap: 10px;
     object-position: 60% 55%;
     
+    
+  }
+  .backg {
+    opacity: 1;
   }
   
    /* Tilboðsvika */
@@ -213,6 +216,16 @@ color: #000000;
     justify-content: space-evenly;
     justify-content: start;
   }
+  .dæmi {
+    background-color: #E1CEC2;
+    clip-path: polygon(0% 15%, 100% 0, 100% 85%, 0% 100%);
+    
+    padding-bottom: 7rem;
+  }
+  .toppad {
+    padding-top: 7rem;
+    padding-left: 20rem;
+  }
   
   /*** Fótur ***/
   
@@ -224,7 +237,6 @@ color: #000000;
     padding: 1rem;
     justify-content: space-between;
   
-    
   }
   
   .footer > section {
@@ -246,6 +258,10 @@ color: #000000;
     align-items: start;
 
   }
+
+  .footer h2 {
+    border-bottom: 2px solid #E1CEC2;
+  }
   
   /*** Box! ***/
   
@@ -254,25 +270,26 @@ color: #000000;
 
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: var(--spacing);
 
     
     padding-bottom: 1rem;
-    
+    padding-left: 0.5rem;
     
   }
   
   .boxes .box {
     display: flex;
+    
     flex-direction: column;
-    justify-content: space-between;
+    background-color: #FFFFFF;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     padding-right: 0.5rem;
   
-    width: 49%;
     margin-bottom: 1rem;
-    
+   
     border-radius: 5px;
   }
   
@@ -280,14 +297,17 @@ color: #000000;
     display: flex;
     gap: var(--spacing);
     margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
   }  
   .boxes .boxa {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: end;
+    
     margin-top: 1rem;
-   
+  }
+  h3 {
+    padding-top: 1rem;
   }
   
   img {
