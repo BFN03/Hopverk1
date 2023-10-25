@@ -36,8 +36,8 @@
   
     /* Letur stillingar */
     --font-base-size: 1rem;
-    --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
-    --font-family-heading: 'Lora', Georgia, serif;
+    --font-family-base: 'Lato';
+    --font-family-heading: 'Lato';
   }
 
   /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
@@ -91,9 +91,6 @@
     align-items: center;
     flex-direction: column;
     
-    padding: 1rem;
-    
-   
     font-family: var(--font-family-heading);
 
     background-image: url('https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-08/unsplash-computer-cables-photo-rwd.jpg');
@@ -212,7 +209,7 @@ color: #000000;
   }
   .tags ul {
     display: flex;
-    flex: row;
+    flex-direction: row;
     justify-content: space-evenly;
     justify-content: start;
   }
