@@ -109,16 +109,6 @@
    opacity: 0.5;
     width: 100%;
   }
-  .backg2 {
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    height: 565px;
-    gap: 10px;
-    object-position: 50% 100%;
-   opacity: 1;
-    width: 100%;
-  }
   
    /* Tilboðsvika */
 .dumb {
@@ -171,7 +161,7 @@ color: #000000;
   .nav {
     margin-bottom: 1rem;
     padding: 1rem;
-  
+    height: 60px;
     color: #000000
     
   }
@@ -182,14 +172,14 @@ color: #000000;
     gap: var(--spacing);
     list-style: none;
     justify-content: space-between; 
-    
+    height: 60px;
   }
   
   .nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    height: 60px;
     
   }
   .Tæknibúðin {
@@ -204,7 +194,7 @@ bottom: 0%;
 font-family: 'Lora';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 70px;
 line-height: 40px;
 /* or 100% */
 display: flex;
@@ -212,9 +202,7 @@ align-items: center;
 
 color: #000000;
   }
-  .texti {
-    opacity: 1;
-  }
+  
   
   /*** Meginmál ***/
   
@@ -266,6 +254,9 @@ color: #000000;
   .padder {
     padding-top: 5rem;
   }
+  .padder2 {
+    padding-top: 2rem;
+  }
 
   .footer > section {
     display: flex;
@@ -307,6 +298,39 @@ color: #000000;
     border-top: 1px solid #6f4e37;
     width: 930px;
   
+  }
+  .footer2 {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    background: #3C2A1E;
+    padding: 20px;
+    position: relative;
+   
+
+  }
+
+  .footer2 > section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+  }
+  .footer2 .dd {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
   }
   
   /*** Box! ***/
@@ -462,4 +486,5 @@ color: #000000;
     display: flex;
     flex-direction: column;
   }
+  
   
