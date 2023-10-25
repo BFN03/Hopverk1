@@ -1,0 +1,407 @@
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reiknum stærð á öllum boxum sem border-box */
+  html {
+    box-sizing: border-box;
+  }
+  /* og látum erfast á allt */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  :root {
+    /* Grunn bilið okkar er 1rem == 16px */
+    --font-base-body-px: 16px;
+    --spacing: 1rem;
+  
+    /* Hámarksbreidd á efni */
+    --max-width: 900px;
+  
+    /* Border breiddir */
+    --border-small: 1px;
+    --border-large: 8px;
+    --border-radius: 6px;
+  
+    /* Litir */
+    --color-gold: #ffe7ae;
+    --color-gold-light: #fff1cf;
+    --color-dark: #2f0505;
+    --color-light: #fff9ee;
+  
+    /* Letur stillingar */
+    --font-base-size: 1rem;
+    --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
+    --font-family-heading: 'Lora', Georgia, serif;
+  }
+
+  /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  /*** Almennt ***/
+  
+  html,
+  input,
+  select,
+  button {
+    font-size: 16px;
+    font-family:'Lato';
+    font-family: 'Lato';
+  }
+  h3 {
+    font-family: 'Lato';
+  }
+  a {
+    color: inherit;
+  }
+  
+  h2,
+  h3,
+  section {
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /*** Haus ***/
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 1rem;
+    
+   
+    font-family: var(--font-family-heading);
+
+    background-image: url('https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-08/unsplash-computer-cables-photo-rwd.jpg');
+    background-size: cover; 
+    background-position: bottom; 
+    background-repeat: no-repeat;
+    height: 565px;
+    opacity: 0.5;
+    gap: 10px;
+    object-position: 60% 55%;
+    
+  }
+  
+   /* Tilboðsvika */
+.dumb {
+    position: absolute;
+    width: 930px;
+    height: 192px;
+    left: 254px;
+    top: 176px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 192px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    
+    color: #000000;
+    }
+    /* Keyptu græjunar hjá okkur! */
+.dumb2 {
+position: absolute;
+width: 930px;
+height: 53px;
+left: 254px;
+top: 380px;
+
+/* Main heading */
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+/* or 133% */
+text-align: center;
+
+color: #000000;
+}
+.backg {
+    color: #000000;
+
+}
+ .nav3 {
+    display: flex;
+    flex-direction: row;
+    
+ }
+  /*** Valmynd ***/
+  
+  .nav {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  
+    color: var(--color-dark);
+    
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing);
+    list-style: none;
+    
+    
+  }
+  
+  .nav ul li {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+  .Tæknibúðin {
+    /* Tæknibúðin */
+
+   
+left: 14.13%;
+right: 24.22%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+display: flex;
+align-items: center;
+
+color: #000000;
+  }
+  .texti {
+    opacity: 1;
+  }
+  
+  /*** Meginmál ***/
+  
+  .main {
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 900px;
+  }
+  .tags ul {
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    justify-content: start;
+  }
+  
+  /*** Fótur ***/
+  
+  .footer {
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: var(--border-large) solid var(--color-gold);
+  
+    background-color: var(--color-dark);
+    color: var(--color-gold-light);
+  
+    
+  }
+  
+  .footer > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .footer .dd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  /*** Box! ***/
+  
+  .boxes {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--spacing);
+
+    
+    padding-bottom: 1rem;
+    
+    
+  }
+  
+  .boxes .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+  
+    width: 49%;
+    margin-bottom: 1rem;
+    
+    border-radius: 5px;
+  }
+  
+  .boxes .box .buttons {
+    display: flex;
+    gap: var(--spacing);
+    margin-bottom: 0.5rem;
+  }  
+  .boxes .boxa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+   
+  }
+  
+  img {
+    object-fit:cover;
+    object-position: 50% 5%;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+  }
+
+  .bil {
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  h2,
+  h3
+{
+    border-bottom:1px solid black;
+    padding-bottom:3px;
+}
+  /*** Opnunartími ***/
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-bottom: 1rem;
+  }
+  
+  /*** Matseðill ***/
+  
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-spacing: 0;
+  }
+  thead {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  thead tr {
+    display: flex;
+    gap: 180px;
+    flex-direction: row;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+  }
+  
+  table tbody tr:nth-child(2n + 1) {
+    background-color: var(--color-gold);
+  }
+  
+  .pleft {
+    padding-left: 3.5rem;
+  }
+  /*** Pöntunarform ***/
+  
+  fieldset {
+    display: flex;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  fieldset legend {
+    font-weight: bold;
+  }
+  
+  fieldset div {
+    
+    
+    margin-bottom: 1rem;
+  }
+  
+  fieldset div label {
+    display: flex;
+    
+  }
+  fieldset input,
+  fieldset select,
+  fieldset textarea {
+    display: flex;
+    
+    padding: 0.5rem;
+  }
+  
+  fieldset input[type='checkbox'] {
+    display: flex;
+    
+    margin-right: 0.5rem;
+  }
+  
+  form button {
+    padding: 0.25rem;
+    border-radius: 6px;
+  }
+  .takki {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
