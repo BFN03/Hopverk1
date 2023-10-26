@@ -105,6 +105,7 @@
     object-position: 50% 100%;
     opacity: 0.6;
     width: 100%;
+    clip-path: polygon(0% 0%, 100% 0, 100% 85%, 0% 100%);
   }
   
    /* Tilboðsvika */
@@ -380,11 +381,16 @@ color: #000000;
   
   .boxes .box .buttons {
     display: flex;
-    gap: var(--spacing);
-    margin-bottom: 0.5rem;
-    padding-top: 0.5rem;
     justify-content: center;
-    flex-grow: 1;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 3px;
+    padding-bottom: 0.5rem;
+
+    
   }  
   .boxes .boxa {
     display: flex;
@@ -492,9 +498,12 @@ color: #000000;
     margin-right: 0.5rem;
   }
   
-  form button {
-    padding: 0.25rem;
+  .butt {
+    display: flex;
+    align-items: center;
+    
     border-radius: 6px;
+
   }
   .takki {
     flex: 1;
@@ -530,3 +539,199 @@ color: #000000;
     justify-content: flex-end;
   }
   
+
+
+  .containe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+.contentleft {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-right: 1rem;
+  width: 230%;
+}
+.contentleft2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 1rem;
+  width: 230%;
+}
+
+
+.text-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.hh2 {
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.pp {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.button2 {
+    padding: 15px;
+    background-color: #6F4E37;
+    color: white;
+    border: 1px solid #3C2A1E;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+.img2 {
+  padding-left: 1rem;
+  width: 450px;
+  height: 274px;
+  left: 733px;
+  top: 120px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.img3 {
+  padding-right: 1rem;
+  width: 450px;
+  height: 274px;
+  left: 733px;
+  top: 120px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.boxespöntun {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: var(--spacing);
+
+
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.boxespöntun .boxpöntun {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  width: 48%;
+
+  margin-bottom: 1rem;
+
+  border-radius: 5px;
+}
+.boxespöntun .boxpöntun label {
+  padding-top: 1rem;
+}
+
+.boxespöntun .boxpöntun textarea {
+  border-radius: 5px;
+}
+
+
+.buttonskarfa {
+  display: flex;
+  gap: var(--spacing);
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  justify-content: left;
+  flex-grow: 1;
+}
+
+.boxeskarfa {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: var(--spacing);
+
+
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+}
+
+.boxeskarfa .boxkarfa {
+  display: flex;
+
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
+
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ffe7ae;
+  border-radius: 5px;
+}
+
+.boxeskarfa .boxkarfa img {
+  width: 90px;
+  height: 84px;
+  margin-right: 35px;
+  padding-bottom: 0.5rem;
+}
+
+.boxeskarfa .boxkarfa p {
+
+  padding-top: 1.5rem;
+
+
+}
+
+.boxespöntun .boxtexti {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  width: 49%;
+  text-align: end;
+
+  margin-bottom: 1rem;
+
+  border-radius: 5px;
+}
+
+.pontunh1 {
+  padding-left: 1rem;
+  font-size: 27px;
+  font-weight: 10;
+}
+.button3 {
+  display: flex;
+  width: 11.5%;
+  padding: 10px;
+  background-color: #6F4E37;
+  color: white;
+  border: 1px solid #3C2A1E;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 2rem;
+
+}
