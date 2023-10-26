@@ -293,6 +293,37 @@ color: #000000;
 
   }
 
+<<<<<<< HEAD
+  /***Filter***/
+  .filter{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+  .filter ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+  }
+  /***Tags***/
+  .tags{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+        background: #E1CEC2;
+    border-radius: 5px;
+    
+  }
+  
+=======
   .footer h2 {
     border-bottom: 2px solid #E1CEC2;
     width: 448px;
@@ -352,6 +383,7 @@ color: #000000;
     align-items: start;
 
   }
+>>>>>>> ef06d8209c5670f61be8d32187bb4899ece4904d
   
   /*** Box! ***/
   
@@ -362,6 +394,8 @@ color: #000000;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: var(--spacing);
+    
+
 
     
     padding-bottom: 1rem;
@@ -387,6 +421,9 @@ color: #000000;
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
+<<<<<<< HEAD
+  
+=======
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     border: 1px solid #000000;
@@ -395,6 +432,7 @@ color: #000000;
     padding-bottom: 0.5rem;
 
     
+>>>>>>> ef06d8209c5670f61be8d32187bb4899ece4904d
   }  
   .boxes .boxa {
     display: flex;
@@ -432,27 +470,12 @@ color: #000000;
   dd {
     margin-bottom: 1rem;
   }
-  
-  /*** Matseðill ***/
-  
-  table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-    border-spacing: 0;
-  }
-  thead {
-    display: flex;
-    flex-direction: row;
-    
-  }
-  thead tr {
-    display: flex;
-    gap: 180px;
-    flex-direction: row;
-  }
 
+<<<<<<< HEAD
+
+
+  
+=======
   table th,
   table td {
     padding: 0.5rem;
@@ -740,3 +763,4 @@ color: #000000;
 
 }
 
+>>>>>>> ef06d8209c5670f61be8d32187bb4899ece4904d
