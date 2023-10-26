@@ -163,6 +163,10 @@ color: #000000;
     color: #000000
     
   }
+
+  nav input {
+    width: 500px;
+  }
   
   .nav ul {
     display: flex;
@@ -735,3 +739,4 @@ color: #000000;
   margin: 2rem;
 
 }
+
