@@ -851,19 +851,7 @@ color: #000000;
   height: 463px;
 }
 
-.tags1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px;
-  gap: 10px;
-  
-  width: min-content;
-  height: 34px;
-  
-  background: #E1CEC2;
-  border-radius: 5px;
-}
+
 
 .varatexti {
   font-size: 20px;
@@ -914,15 +902,16 @@ color: #000000;
 .boxeseiginleikar .boxeiginleikar h2 {
   font-weight: normal;
   padding-top: 2rem;
-  font-size: 700;
+  font-size: 2rem;
   line-height: 3rem;
 }
 
 .boxeseiginleikar .boxeiginleikar p {
   font-weight: normal;
-  font-size: 400;
+  font-size: 2rem;
   line-height: 2rem;
   font-size: 1.25rem;
+  padding-bottom: 4rem;
 }
 
 .boxesvara2 {
@@ -946,7 +935,7 @@ color: #000000;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     padding-right: 0.5rem;
-  
+  margin-right: 2rem;
     margin-bottom: 1rem;
    
     border-radius: 5px;
