@@ -208,7 +208,32 @@ color: #000000;
     padding-right: 1rem;
     max-width: 900px;
   }
-  
+
+  .tags ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    justify-content: space-between;
+    justify-content: start;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+
+    width: min-content;
+    height: 34px;
+    
+
+    background: #E1CEC2;
+    border-radius: 5px;
+  }
+
+
+
+
   .dæmi {
     background-color: #E1CEC2;
     clip-path: polygon(0% 15%, 100% 0, 100% 85%, 0% 100%);
@@ -694,7 +719,19 @@ color: #000000;
   padding-left: 1rem;
   justify-content: left;
   flex-grow: 1;
-}
+}.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 3px;
+    padding-bottom: 0.5rem;
+
+    
+  }
 
 .boxeskarfa {
   display: flex;
@@ -771,5 +808,165 @@ color: #000000;
   margin: 2rem;
 
 }
+
+/*Vöru síðan*/
+
+
+
+.boxesvara {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: var(--spacing);
+
+
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.boxesvara .boxvara {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  width: 48%;
+
+  margin-bottom: 1rem;
+
+  border-radius: 5px;
+}
+
+.boxesvara .boxvara h1 {
+  font-weight: normal;
+  font-size: 60px;
+}
+
+.boxesvara .boxvara img {
+  width: 690px;
+  height: 463px;
+}
+
+.tags1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  
+  width: min-content;
+  height: 34px;
+  
+  background: #E1CEC2;
+  border-radius: 5px;
+}
+
+.varatexti {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.boxtextivara {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #FFFFFF;
+  
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  width: 49%;
+  text-align: end;
+
+  margin-bottom: 1rem;
+
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border: 1px solid #000000;
+  cursor: pointer;
+  border-radius: 3px;
+  padding-bottom: 0.5rem;
+
+  
+}
+
+.boxeseiginleikar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58.125rem;
+  margin: 0 auto;
+}
+
+
+
+.boxeseiginleikar .boxeiginleikar h2 {
+  font-weight: normal;
+  padding-top: 2rem;
+  font-size: 700;
+  line-height: 3rem;
+}
+
+.boxeseiginleikar .boxeiginleikar p {
+  font-weight: normal;
+  font-size: 400;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+.boxesvara2 {
+  display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: var(--spacing);
+
+    
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.boxesvara2 .box {
+  display: flex;
+    
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+  
+    margin-bottom: 1rem;
+   
+    border-radius: 5px;
+}
+.boxesvara2 .box img {
+  height: 10rem;
+  width: 18.75rem;
+}
+
+.tengdartexti {
+  padding-left: 1rem;
+}
+
+.tengdartexti h1{
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 2rem;
+  
+}
+/* yip yap */
+
 
 
