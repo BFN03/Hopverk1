@@ -68,9 +68,7 @@
     color: inherit;
   }
   
-  h2,
-  h3,
-  section {
+  main h2 {
     margin-bottom: 1rem;
   }
   
@@ -98,7 +96,6 @@
     
   }
   .backg {
-    
     background-image: url('https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-08/unsplash-computer-cables-photo-rwd.jpg');
     background-size: cover; 
     background-position: bottom; 
@@ -106,7 +103,7 @@
     height: 565px;
     gap: 10px;
     object-position: 50% 100%;
-   opacity: 0.5;
+    opacity: 1;
     width: 100%;
   }
   
@@ -207,8 +204,8 @@ color: #000000;
 }
 .image2 {
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: 32px;
+  top: 37px;
   
 }
   
@@ -244,7 +241,10 @@ color: #000000;
     
     padding-bottom: 7rem;
   }
-  
+  .Vörulisti   {
+    background-color: #E1CEC2;
+    padding-top: 1rem;
+  }
   /** Fótur **/
 
 
@@ -258,11 +258,11 @@ color: #000000;
     background: #3C2A1E;
     padding: 20px;
     position: relative;
-    clip-path: polygon(0% 35%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 30%, 100% 0, 100% 100%, 0% 100%);
 
   }
   .padder {
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
   .padder2 {
     padding-top: 2rem;
@@ -288,7 +288,12 @@ color: #000000;
 
   }
 
-  section h2 {
+  .footer h2 {
+    border-bottom: 2px solid #E1CEC2;
+    width: 448px;
+
+  }
+  .footer2 h2 {
     border-bottom: 2px solid #E1CEC2;
     width: 448px;
 
@@ -497,4 +502,31 @@ color: #000000;
     flex-direction: column;
   }
   
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    padding: 10px;
+  }
+  
+  .nav-item {
+    padding: 5px 10px;
+  }
+  
+  .left-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-options {
+    text-align: center;
+  }
+  
+  .right-options {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
   
