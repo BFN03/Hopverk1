@@ -1,0 +1,59 @@
+/* Setjum inn „reset“ sem fjarlægir margin og padding af öllu */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reiknum stærð á öllum boxum sem border-box */
+  html {
+    box-sizing: border-box;
+  }
+  /* og látum erfast á allt */
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  /*** Almennt ***/
+  
+  html,
+  input,
+  select,
+  button {
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
+  }
+  h3 {
+    font-family: 'Lato';
+  }
+  a {
+    color: inherit;
+  }
+  
+  main h2 {
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /*** Haus ***/
+  
+  .wrapper {
+    display: flex;
+    
+  }

@@ -1,0 +1,39 @@
+.Tæknibúðin {
+    /* Tæknibúðin */
+
+   
+left: 14.13%;
+right: 24.22%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 40px;
+/* or 100% */
+display: flex;
+align-items: center;
+
+color: #000000;
+  }
+.container {
+  position: relative;
+}
+.image2 {
+  position: absolute;
+  right: 37px;
+  top: 30px;
+  
+}
+  
+  
+  /*** Meginmál ***/
+  
+  .main {
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 900px;
+  }
