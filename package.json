@@ -1,0 +1,24 @@
+{
+  "name": "hopverk1",
+  "version": "1.0.0",
+  "description": "Nöfn: \r Björn Freyr Nielsen \r Hinrik Haraldsson\r Hjalti Freyr Magnússon",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
