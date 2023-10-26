@@ -1,0 +1,93 @@
+
+.padder {
+  padding-top: 10rem;
+}
+.padder2 {
+  padding-top: 2rem;
+}
+
+.footer > section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+.footer .dd {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.footer h2 {
+  border-bottom: 2px solid #E1CEC2;
+  width: 448px;
+
+}
+.footer2 h2 {
+  border-bottom: 2px solid #E1CEC2;
+  width: 448px;
+
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #3C2A1E;
+}
+.copyright .lina34 {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #6f4e37;
+  width: 930px;
+
+}
+.footer2 {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding: 1rem;
+  color: #FFFFFF;
+  background: #3C2A1E;
+  padding: 20px;
+  position: relative;
+ 
+
+}
+.footer h2 {
+  border-bottom: 2px solid #E1CEC2;
+  width: 448px;
+  justify-items: center;
+  gap: 10px
+}
+
+.footer2 > section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+.footer2 .dd {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer2 ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}

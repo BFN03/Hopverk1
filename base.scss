@@ -55,7 +55,6 @@
   
   .wrapper {
     display: flex;
-    flex-direction: column;
     
   }
   
@@ -334,6 +333,12 @@ color: #000000;
    
 
   }
+  .footer h2 {
+    border-bottom: 2px solid #E1CEC2;
+    width: 448px;
+    justify-items: center;
+    gap: 10px
+}
 
   .footer2 > section {
     display: flex;
@@ -410,12 +415,7 @@ color: #000000;
     border-radius: 5px;
   }
 
-  .footer h2 {
-    border-bottom: 2px solid #E1CEC2;
-    width: 448px;
-    justify-items: center;
-    gap: 10px
-}
+ 
 
 /***Tags***/
 .tags ul {
