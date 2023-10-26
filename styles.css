@@ -740,3 +740,35 @@ color: #000000;
 
 }
 
+.imgmotherboard img{
+  width: 690px;
+  height: 463px;
+}
+
+.boxesvara {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: var(--spacing);
+
+
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.boxesvara .boxvara {
+  display: flex;
+
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  width: 40%;
+
+  margin-bottom: 1rem;
+
+  border-radius: 5px;
+}
