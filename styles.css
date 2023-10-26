@@ -36,8 +36,8 @@
   
     /* Letur stillingar */
     --font-base-size: 1rem;
-    --font-family-base: 'Lato';
-    --font-family-heading: 'Lato';
+    --font-family-base: 'Lato', sans-serif;
+    --font-family-heading: 'Lato', sans-serif;
   }
 
   /* hjálpar class sem felur sjónrænt en skjálesarar lesa */
@@ -58,8 +58,8 @@
   select,
   button {
     font-size: 16px;
-    font-family:'Lato';
-    font-family: 'Lato';
+    font-family:'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   h3 {
     font-family: 'Lato';
@@ -103,7 +103,7 @@
     height: 565px;
     gap: 10px;
     object-position: 50% 100%;
-    opacity: 1;
+    opacity: 0.6;
     width: 100%;
   }
   
